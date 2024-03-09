@@ -1,5 +1,5 @@
 {
-  "name": "snack-store-api",
+  "name": "fast-food-api",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -13,7 +13,8 @@
     "seed": "npx ts-node src/drivers/db/prisma/seed.ts",
     "lint": "eslint src",
     "test": "vitest run",
-    "test-watch": "vitest"
+    "test-watch": "vitest",
+    "sonar": "node sonar-project.js"
   },
   "prisma": {
     "schema": "src/drivers/db/prisma/schema.prisma"
@@ -32,6 +33,7 @@
     "install": "0.13.0",
     "prettier": "3.0.3",
     "prisma": "5.4.2",
+    "sonarqube-scanner": "3.3.0",
     "tsup": "7.2.0",
     "tsx": "3.13.0",
     "typescript": "5.2.2",
