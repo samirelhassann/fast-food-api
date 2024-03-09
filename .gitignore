@@ -5,4 +5,5 @@ node_modules
 #k8s
 deploy/local/db/volume
 
+coverage
 .scannerwork
