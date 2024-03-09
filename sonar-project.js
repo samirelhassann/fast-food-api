@@ -5,8 +5,8 @@ sonarqubeScanner({
   serverUrl: 'https://sonarcloud.io',
   token: process.env.SONAR_TOKEN,
   options: {
-    'sonar.projectKey': 'samirelhassann-personal_snack-bar-ap',
-    'sonar.organization': 'samirelhassann-personal',
+    'sonar.projectKey': process.env.SONAR_PROJECT_KEY,
+    'sonar.organization': process.env.SONAR_ORGANIZATION,
     'sonar.sources': 'src',
     'sonar.tests': 'test',
     'sonar.test.inclusions': '**/*.spec.ts,**/*.test.ts',
